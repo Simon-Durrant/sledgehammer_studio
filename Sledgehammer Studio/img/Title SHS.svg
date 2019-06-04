@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1110"
+   version="1.1"
+   viewBox="0 0 91.227768 19.277534"
+   height="19.277534mm"
+   width="91.227768mm">
+  <defs
+     id="defs1104">
+    <filter
+       id="filter5193"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5179"
+         result="result3"
+         stdDeviation="5" />
+      <feColorMatrix
+         id="feColorMatrix5181"
+         result="result7"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 " />
+      <feComposite
+         id="feComposite5183"
+         result="result9"
+         in2="SourceGraphic"
+         operator="in" />
+      <feComposite
+         id="feComposite5185"
+         result="result1"
+         k3="0.5"
+         k1="0.5"
+         in="result9"
+         operator="arithmetic"
+         in2="result7"
+         k2="0"
+         k4="0" />
+      <feBlend
+         id="feBlend5187"
+         in="SourceGraphic"
+         mode="screen"
+         result="result5"
+         in2="result1" />
+      <feBlend
+         id="feBlend5189"
+         result="result6"
+         in="result5"
+         mode="darken"
+         in2="result5" />
+      <feComposite
+         id="feComposite5191"
+         result="fbSourceGraphic"
+         operator="in"
+         in2="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5195"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feGaussianBlur
+         in="fbSourceGraphic"
+         result="result3"
+         stdDeviation="5"
+         id="feGaussianBlur5197" />
+      <feColorMatrix
+         result="result7"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         id="feColorMatrix5199" />
+      <feComposite
+         result="result9"
+         operator="in"
+         id="feComposite5201"
+         in2="fbSourceGraphic" />
+      <feComposite
+         result="result1"
+         k3="0.5"
+         k1="0.5"
+         in="result9"
+         operator="arithmetic"
+         id="feComposite5203"
+         in2="result7"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in="fbSourceGraphic"
+         mode="screen"
+         result="result5"
+         id="feBlend5205"
+         in2="result1" />
+      <feBlend
+         result="result6"
+         in="result5"
+         mode="darken"
+         id="feBlend5207"
+         in2="result5" />
+      <feComposite
+         result="result8"
+         operator="in"
+         id="feComposite5209"
+         in2="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="filter4739"
+       style="color-interpolation-filters:sRGB">
+      <feColorMatrix
+         id="feColorMatrix4711"
+         result="result1"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 " />
+      <feColorMatrix
+         id="feColorMatrix4713"
+         result="result9"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 " />
+      <feComposite
+         id="feComposite4715"
+         result="result4"
+         operator="in"
+         in="SourceGraphic"
+         in2="result9" />
+      <feFlood
+         id="feFlood4717"
+         flood-color="rgb(0,0,0)"
+         result="result2" />
+      <feComposite
+         id="feComposite4719"
+         result="result10"
+         operator="in"
+         in2="result9" />
+      <feComposite
+         id="feComposite4721"
+         operator="atop"
+         in2="result4" />
+      <feGaussianBlur
+         id="feGaussianBlur4723"
+         result="result8"
+         stdDeviation="3" />
+      <feOffset
+         id="feOffset4725"
+         in="result8"
+         result="result3"
+         dy="3"
+         dx="3" />
+      <feFlood
+         id="feFlood4727"
+         result="result5"
+         flood-color="rgb(219,173,62)"
+         flood-opacity="1" />
+      <feMerge
+         id="feMerge4735"
+         result="result6">
+        <feMergeNode
+           id="feMergeNode4729"
+           in="result5" />
+        <feMergeNode
+           id="feMergeNode4731"
+           in="result3" />
+        <feMergeNode
+           id="feMergeNode4733"
+           in="result4" />
+      </feMerge>
+      <feComposite
+         id="feComposite4737"
+         result="fbSourceGraphic"
+         operator="in"
+         in2="SourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5299"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha" />
+      <feColorMatrix
+         in="fbSourceGraphic"
+         values="1.77 -0.74 -0.74 0 0 -0.74 1.77 -0.74 0 0 -0.74 -0.74 1.77 0 0 0 0 0 1 0 "
+         id="feColorMatrix5301" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata1107">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-23.933737,-67.37909)"
+     id="layer1">
+    <text
+       transform="matrix(0.94528984,0.00346682,-0.00209823,1.0578689,28.873404,31.12467)"
+       id="text35-6"
+       y="49.177353"
+       x="35.091553"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.67785454px;line-height:1.25;font-family:'Harlow Solid Italic';-inkscape-font-specification:'Harlow Solid Italic, ';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.24194637;filter:url(#filter4739)"
+       xml:space="preserve"><tspan
+         id="tspan33-4"
+         x="35.091553"
+         y="49.177353"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Harlow Solid Italic';-inkscape-font-specification:'Harlow Solid Italic, ';fill:#ff00ff;fill-opacity:1;stroke-width:0.24194637">Studio</tspan></text>
+    <text
+       transform="matrix(1,0,-0.02647363,1,27.950288,32.353091)"
+       id="text39-4"
+       y="44.787884"
+       x="4.4418044"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:'Eras Medium ITC';-inkscape-font-specification:'Eras Medium ITC';letter-spacing:-0.80168754px;word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1;stroke:#3d01b3;stroke-width:0.28999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5193)"
+       xml:space="preserve"><tspan
+         id="tspan37-9"
+         x="4.4418044"
+         y="44.787884"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.69999981px;font-family:'Eras Medium ITC';-inkscape-font-specification:'Eras Medium ITC';letter-spacing:-0.80168754px;fill:#ffffff;fill-opacity:1;stroke:#3d01a5;stroke-width:0.28999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         dx="0 0 0 0 0 0 0 0 0 0">Sledgehammer</tspan></text>
+  </g>
+</svg>

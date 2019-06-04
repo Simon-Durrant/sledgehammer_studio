@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="Logo1.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:label="Sharpen"
+       inkscape:menu="Image Effects"
+       inkscape:menu-tooltip="Sharpen edges and boundaries within the object, force=0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter27">
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="0 -0.15 0 -0.15 1.6 -0.15 0 -0.15 0"
+         divisor="1"
+         in="SourceGraphic"
+         targetX="1"
+         targetY="1"
+         id="feConvolveMatrix25"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix29" />
+      <feConvolveMatrix
+         id="feConvolveMatrix31"
+         order="3 3"
+         kernelMatrix="0 -0.15 0 -0.15 1.6 -0.15 0 -0.15 0"
+         divisor="1"
+         in="fbSourceGraphic"
+         targetX="1"
+         targetY="1" />
+    </filter>
+    <filter
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Cut out, add inner shadow and colorize some parts of an image"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Brilliance"
+       id="filter4739">
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.21 0.72 0.07 0 0 "
+         result="result1"
+         id="feColorMatrix4711" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 "
+         result="result9"
+         id="feColorMatrix4713" />
+      <feComposite
+         in2="result9"
+         in="SourceGraphic"
+         operator="in"
+         result="result4"
+         id="feComposite4715" />
+      <feFlood
+         result="result2"
+         flood-color="rgb(0,0,0)"
+         id="feFlood4717" />
+      <feComposite
+         in2="result9"
+         operator="in"
+         result="result10"
+         id="feComposite4719" />
+      <feComposite
+         in2="result4"
+         operator="atop"
+         id="feComposite4721" />
+      <feGaussianBlur
+         stdDeviation="3"
+         result="result8"
+         id="feGaussianBlur4723" />
+      <feOffset
+         dx="3"
+         dy="3"
+         result="result3"
+         in="result8"
+         id="feOffset4725" />
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(219,173,62)"
+         result="result5"
+         id="feFlood4727" />
+      <feMerge
+         result="result6"
+         id="feMerge4735">
+        <feMergeNode
+           in="result5"
+           id="feMergeNode4729" />
+        <feMergeNode
+           in="result3"
+           id="feMergeNode4731" />
+        <feMergeNode
+           in="result4"
+           id="feMergeNode4733" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="fbSourceGraphic"
+         id="feComposite4737" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5299" />
+      <feColorMatrix
+         id="feColorMatrix5301"
+         values="1.77 -0.74 -0.74 0 0 -0.74 1.77 -0.74 0 0 -0.74 -0.74 1.77 0 0 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       inkscape:label="Soft Focus Lens"
+       inkscape:menu="Image Effects"
+       inkscape:menu-tooltip="Glowing image content without blurring it"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5193">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result3"
+         id="feGaussianBlur5179" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="result7"
+         id="feColorMatrix5181" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         result="result9"
+         id="feComposite5183" />
+      <feComposite
+         in2="result7"
+         operator="arithmetic"
+         in="result9"
+         k1="0.5"
+         k3="0.5"
+         result="result1"
+         id="feComposite5185" />
+      <feBlend
+         in2="result1"
+         result="result5"
+         mode="screen"
+         in="SourceGraphic"
+         id="feBlend5187" />
+      <feBlend
+         in2="result5"
+         mode="darken"
+         in="result5"
+         result="result6"
+         id="feBlend5189" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="fbSourceGraphic"
+         id="feComposite5191" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5195" />
+      <feGaussianBlur
+         id="feGaussianBlur5197"
+         stdDeviation="5"
+         result="result3"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5199"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="result7" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite5201"
+         operator="in"
+         result="result9" />
+      <feComposite
+         in2="result7"
+         id="feComposite5203"
+         operator="arithmetic"
+         in="result9"
+         k1="0.5"
+         k3="0.5"
+         result="result1" />
+      <feBlend
+         in2="result1"
+         id="feBlend5205"
+         result="result5"
+         mode="screen"
+         in="fbSourceGraphic" />
+      <feBlend
+         in2="result5"
+         id="feBlend5207"
+         mode="darken"
+         in="result5"
+         result="result6" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite5209"
+         operator="in"
+         result="result8" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="161.51757"
+     inkscape:cy="854.86224"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4559" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.67785454px;line-height:1.25;font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#7c7c7c;fill-opacity:1;stroke:none;stroke-width:0.24194637"
+       x="85.334801"
+       y="27.760468"
+       id="text35"
+       transform="matrix(0.94433236,0.00346682,-0.29425758,1.0578689,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         x="85.334801"
+         y="27.760468"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans Ultra Bold';-inkscape-font-specification:'Gill Sans Ultra Bold, ';fill:#7c7c7c;fill-opacity:1;stroke-width:0.24194637">Studio</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:-0.91810399px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="4.8718677"
+       y="29.770832"
+       id="text39"
+       transform="skewX(-1.5164731)"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         x="4.8718677"
+         y="29.770832"
+         style="letter-spacing:-0.91810399px;stroke-width:0.26458332"
+         dx="0 0 0 0 0 0 0 0 0 0">Sledgehammer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.67785454px;line-height:1.25;font-family:'Harlow Solid Italic';-inkscape-font-specification:'Harlow Solid Italic, ';letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:0.24194637;filter:url(#filter4739)"
+       x="35.091553"
+       y="49.177353"
+       id="text35-6"
+       transform="matrix(0.94528985,0.00346682,-0.00209823,1.0578689,-8.0319941,-1.2284226)"><tspan
+         sodipodi:role="line"
+         id="tspan33-4"
+         x="35.091553"
+         y="49.177353"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Harlow Solid Italic';-inkscape-font-specification:'Harlow Solid Italic, ';fill:#ff00ff;fill-opacity:1;stroke-width:0.24194637">Studio</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:'Eras Light ITC';-inkscape-font-specification:'Eras Light ITC';letter-spacing:-0.91810399px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter5193)"
+       x="4.4418044"
+       y="44.787884"
+       id="text39-4"
+       transform="skewX(-1.5164731)"><tspan
+         sodipodi:role="line"
+         id="tspan37-9"
+         x="4.4418044"
+         y="44.787884"
+         style="letter-spacing:-0.91810399px;stroke-width:0.26458332;-inkscape-font-specification:'Eras Light ITC';font-family:'Eras Light ITC';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         dx="0 0 0 0 0 0 0 0 0 0">Sledgehammer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.43023729px;line-height:1.25;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18575594;"
+       x="4.7475328"
+       y="115.5957"
+       id="text5305"
+       transform="scale(1.329898,0.75193738)"><tspan
+         sodipodi:role="line"
+         id="tspan5303"
+         x="4.7475328"
+         y="115.5957"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Thin';-inkscape-font-specification:'Roboto Thin, ';letter-spacing:0px;stroke-width:0.18575594">Sledgehammer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.82922077px;line-height:1.25;font-family:'Copperplate Gothic Light';-inkscape-font-specification:'Copperplate Gothic Light, ';letter-spacing:-0.22472449px;word-spacing:0px;writing-mode:lr-tb;text-orientation:sideways;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34573051"
+       x="2.8522592"
+       y="168.23341"
+       id="text5309"
+       transform="scale(1.799239,0.55579052)"><tspan
+         sodipodi:role="line"
+         id="tspan5307"
+         x="2.8522592"
+         y="168.23341"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Light';-inkscape-font-specification:'Roboto Light, ';letter-spacing:-0.22472449px;writing-mode:lr-tb;text-orientation:sideways;stroke-width:0.34573051">Studio</tspan></text>
+  </g>
+</svg>
