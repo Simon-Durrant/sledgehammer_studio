@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+html {
+    background-color: #F1F1F1;
+}
+header {
+  z-index: 30;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -41,19 +48,19 @@ button {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-
 }
 
 
+
 .bgimg::before {
-  background-image: url("../img/Shure_mikrofon_55S.jpg");
+  background-image: url("../img/Mark-Thomas-Banner-2.jpg");
   background-size: cover;
   content: "";
   display: block;
   top: 0;
   left: 0;
   max-width: 100vw;
-  min-height: 100vw;
+  min-height: 50vw;
   z-index: 2;
 }
 
@@ -63,9 +70,9 @@ button {
   position: absolute;
   margin-left: 0;
   min-width: 100%;
-  min-height: 100vw;
+  min-height: 50vw;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.5;
   background-color: #3d01c1;
 }
 
@@ -77,6 +84,7 @@ button {
   height: 20vw;
   min-width: 80vw;
   top: 100px;
+  left: 50px;
   z-index: 2;
 }
 
@@ -98,13 +106,9 @@ li a {
   font-size: 1.2em;
 }
 
-.img {
-  background-size: contain;
-  width: 90vw;
-  max-height: 600px;
-}
+
 .container {
-  max-width: 95vw;
+  max-width: 85vw;
   padding: 10px;
   margin: auto;
   padding-top: 20px;
@@ -114,8 +118,13 @@ li a {
 }
 
 img {
-  max-width: 100vw;
-  height:85vw;
+  max-width: 90vw;
+  max-height: 250px;
   background-size: cover;
   margin: auto;
+}
+footer {
+  background-color: #4F2C86;
+  padding: 25px 20px;
+  line-height: 2.5em;
 }

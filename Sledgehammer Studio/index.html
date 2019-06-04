@@ -9,15 +9,15 @@
   <meta name="description" content="Sledgehammer Studio | Norwich based recording studio">
   <meta name="author" content="SitePoint">
   <link rel="stylesheet" href="css/normalise.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mmenu-js-master\dist\mmenu.css">
   <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick.css">
   <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick-theme.css">
   <link rel="stylesheet" href="css/main.css">
 
 </head>
-
+<a id="top"></a>
 <body>
-  <header>
+  <header class="header">
     <div class="shs">
 
     </div>
@@ -28,12 +28,18 @@
       </div>
 
     </div>
-    <nav>
+    <nav class="sticker">
       <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a>
+          <!-- <ul>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Experience</a></li>
+          </ul> -->
+        </li>
+
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -44,11 +50,21 @@
       <p>Integer fringilla. Aenean scelerisque metus eget sem. Pellentesque condimentum felis a sem. Cras facilisis felis sit amet lorem.</p>
     </div>
     <div class="container">
+      <section id="about">
+
+
       <h2>About</h2>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi volutpat. Integer fringilla. Aenean scelerisque metus eget sem.</p><br>
 
-      <p>Pellentesque condimentum felis a sem. Cras facilisis felis sit amet lorem.
+      <p>Pellentesque condimentum felis a sem. Cras facilisis felis sit amet lorem.<br>
+
+    <p>Lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Morbi volutpat. Integer fringilla.
+      Aenean scelerisque metus eget sem.
+      Pellentesque condimentum felis a sem. Cras
+      facilisis felis sit amet lorem.</p>
       </p>
+      </section>
     </div>
     <div class="carousel">
       <div class="img1">
@@ -70,11 +86,14 @@
     <img src="img\AACS1nNrlpQbsY1xcuBBJ1x20TuMy2nTy-c9zM7l01T-dR40SueGDZ8hYVPoTN9I1uVllil6laKfj2NEodmIJM0yohcgq0ELVZRnwnQ6MpOtIQ0mWoVDd9GwcmC5hwj_ckO7jjGAavBUjA0RL1y2yYzlQRhL7AepTKMDmjLbZqn6PpecncjrID.jpg" alt="">
       </div>
     </div>
-    <div class="">
-
-    </div>
     <div class="container">
-      <h2>Services</h2>
+      <h2 id="services">Services</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Morbi volutpat. Integer fringilla.
+        Aenean scelerisque metus eget sem.
+        Pellentesque condimentum felis a sem. Cras
+        facilisis felis sit amet lorem.</p><br>
+
       <p>Lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Morbi volutpat. Integer fringilla.
         Aenean scelerisque metus eget sem.
@@ -88,7 +107,7 @@
         facilisis felis sit amet lorem.</p>
     </div>
     <div class="container">
-      <h2>Contact</h2>
+      <h2 id="contact">Contact</h2>
       <form class="contact" action="index.html" method="post">
         Name:<br>
         <input type="text" name="name" placeholder="Your name..."><br>
@@ -104,42 +123,45 @@
   </main>
   <footer>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </footer>
-<script type="text/javascript" src="slick-1.8.1\slick\jquery.js">
-</script>
-<script type="text/javascript" src="slick-1.8.1\slick\slick.min.js">
 
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="slick-1.8.1\slick\slick.min.js"></script>
+<script type="text/javascript" src="mmenu-js-master\dist\mmenu.js"></script>
+<script src="garand-sticky-73b0fbe\jquery.sticky.js"></script>
+
+
+
+<script>
+    document.addEventListener(
+        "DOMContentLoaded", () => {
+        new Mmenu( "#mmenu" );
+        }
+    );
 </script>
+
 <script type="text/javascript">
 $(document).ready(function(){
 $('.carousel').slick({
   autoplay: true,
-  arrows: true,
-  dots: true
+  dots: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  // centerMode: true,
+  // appendArrows: $(".carousel"),
+  zIndex: 0
 });
 });
 </script>
-<!-- <script type="slick-1.8.1\slick\jquery.js">
-
-</script>
-    <script type="text/javascript" url="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" url="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-  <script type="text/javascript" src="slick-1.8.1\slick\slick.js"></script>
-
-  <script type="text/javascript">
+<script>
   $(document).ready(function(){
-  $('.carousel').slick({
-    autoplay: true,
-    arrows: true,
-    dots: true
+    $(".sticker").sticky({topSpacing:0});
   });
-}); -->
 </script>
 </body>
 
