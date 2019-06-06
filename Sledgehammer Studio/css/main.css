@@ -87,7 +87,7 @@ button {
   background-size: contain;
   height: 20vw;
   min-width: 80vw;
-  top: 0;
+  top: 16px;
   z-index: 32;
 }
 
