@@ -4,7 +4,7 @@
 }
 html::-webkit-scrollbar { width: 0 !important }
 html {
-    background-color: #F1F1F1;
+    background-color: #FFF6FF;
 }
 header {
   z-index: 30;
@@ -68,13 +68,13 @@ button {
   z-index: 2;
 }
 
-.logo::before {
+.overlay::before {
   content: "";
   display: block;
   position: absolute;
   margin-left: 0;
   min-width: 100%;
-  min-height: 50vw;
+height: 50vw;
   z-index: 1;
   opacity: 0.35;
   background-color: #3d01c1;
@@ -112,7 +112,8 @@ li a {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #4a4a4a;
-  background-color: #F1F1F1;
+  background-color: #DDD5ED;
+
 }
 
 img {
@@ -129,7 +130,7 @@ padding-bottom: 200px;
 .footer {
   position: relative;
   top: 60px;
-  background-color: #4F2C86;
+  background-color: #9487C8;
   padding: 25px 20px;
   line-height: 2.5em;
   display: flex;
@@ -144,9 +145,7 @@ padding-bottom: 200px;
 
 .sm {
   display: flex;
-  flex-direction: row;
-  margin-top: 108px;
-
+  flex-direction: column;
 }
 
 .fb,
@@ -155,7 +154,7 @@ padding-bottom: 200px;
 .soundcloud  {
   height: 48px;
   width: 48px;
-  padding: 10px;
+  padding: 4px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -176,44 +175,61 @@ padding-bottom: 200px;
   background-image: url("../socialMedia/iconmonstr-soundcloud-3-48.png");
 }
 
+
+
 /* Media queries */
 
 @media (min-width:768px) {
-  .logo {
+  .bgimg,
+  .overlay {
     display: none;
   }
 
 .shs {
   display: none;
 }
-.mainimg {
+.mainimg::before {
   background-image: url("../img/20190210_151408.jpg");
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 510px;
-  width: 85vw;
-margin: 30px auto;
+  background-size: cover;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  max-width: 100vw;
+  height: 550px;
   z-index: 2;
 }
 
+.overlay2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 0;
+  min-width: 100%;
+height: 550px;
+  z-index: 1;
+  opacity: 0.25;
+  background-color: #3d01c1;
+}
+
 .sm-shs {
-  background-image:url("../img/Title_SHS1.png");
+  background-image: url(../img/Title_SHS1.png);
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  height: 60px;
-  width: 28vw;
-  margin-top: 10px;
-  left: 0;
+  height: 120px;
+  width: 52vw;
+  margin-top: -2px;
+  left: -28px;
   z-index: 2;
 }
 .nav li {
 padding: 10px;
-  background-color: #9487c8;
-  width: 19.4vw;
+  /* background-color: #9487c8; */
+  border: solid #9487c8 2px;
+  border-radius: 5px;
+  width: 12.4vw;
   color: white;
 }
 .form {

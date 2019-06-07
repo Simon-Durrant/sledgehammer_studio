@@ -15,7 +15,8 @@
     style: "dark",
     btnText: "Alrighty then!",
     policyText: "Privacy policy",
-    text: "Give me cookies!"
+    text: "Give me cookies!",
+    expireDays: 1
   });
 
   $(".main").tiltedpage_scroll({

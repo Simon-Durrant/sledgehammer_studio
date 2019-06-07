@@ -1,5 +1,7 @@
 .tps-section {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
   height: 300px;
   -webkit-perspective: 10em;
   -moz-perspective: 10em;
