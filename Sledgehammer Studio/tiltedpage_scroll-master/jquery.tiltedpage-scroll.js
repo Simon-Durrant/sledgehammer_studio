@@ -64,7 +64,7 @@
       el.find('.tps-section.tps-inview > .tps-wrapper').each(function(index){
         var el2 = $(this),
             opacity = 0,
-            st = $(window).scrollTop() + 250,
+            st = $(window).scrollTop() + 200,
             deg = ((el2.parent().offset().top - el2.parent().height()) - st) / $(window).height() * (settings.angle * 3),
             scale = ((st + $(window).height() - (el2.parent().offset().top - el2.parent().height())) / ($(window).height() )) ;
             if(scale > 1) scale = 1;

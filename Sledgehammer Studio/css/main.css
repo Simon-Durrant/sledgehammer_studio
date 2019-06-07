@@ -2,17 +2,48 @@
   margin: 0;
   padding: 0;
 }
-html::-webkit-scrollbar { width: 0 !important }
-html {
-    background-color: #FFF6FF;
+h2 {
+padding-top: 100px;
 }
+
+html::-webkit-scrollbar {
+  width: 0 !important
+}
+
+html {
+  background-color: #BAA4E6;
+}
+
 header {
   z-index: 30;
+}
+
+.headline {
+  color: #FFF6FF;
+  position: absolute;
+  left: 6vw;
+  top: 1%;
+  height:300px;
+  width: 300px;
+  z-index: 10;
+}
+
+.mono {
+  background-image: url("../img/mono-s.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 60vw;
+  top: 2%;
+  height: 200px;
+  width: 200px;
+  z-index: 10;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 main {
   position: relative;
   top: 60px;
@@ -23,14 +54,24 @@ a {
   font-weight: bold;
 }
 
-h2 {
+/* h2 {
   padding-bottom: 10px;
-}
+} */
+
+/* h2::before {
+  display: block;
+  content: " ";
+  margin-top: -285px;
+  height: 285px;
+  visibility: hidden;
+  pointer-events: none;
+} */
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
+/* Contact box */
 input,
 textarea {
   width: 85vw;
@@ -55,7 +96,7 @@ button {
   cursor: pointer;
 }
 
-
+/* Banner at small screen sizes */
 .bgimg::before {
   background-image: url("../img/Mark-Thomas-Banner-2.jpg");
   background-size: cover;
@@ -74,14 +115,15 @@ button {
   position: absolute;
   margin-left: 0;
   min-width: 100%;
-height: 50vw;
+  height: 50vw;
   z-index: 1;
   opacity: 0.35;
   background-color: #3d01c1;
 }
 
+/* Logo */
 .shs {
-  background-image:url("../img/Title_SHS1.png");
+  background-image: url("../img/Title_SHS1.png");
   position: fixed;
   background-repeat: no-repeat;
   background-size: contain;
@@ -104,7 +146,7 @@ li a {
   font-size: 1.2em;
 }
 
-
+/* Page width */
 .container {
   max-width: 85vw;
   padding: 10px;
@@ -112,10 +154,10 @@ li a {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #4a4a4a;
-  background-color: #DDD5ED;
-
+  background-color: #FFF6FF;
 }
 
+/* Images in carousel */
 img {
   max-width: 90vw;
   max-height: 250px;
@@ -123,24 +165,16 @@ img {
   margin: auto;
 }
 
-/* .portfolio {
-padding-bottom: 200px;
-} */
-
+/* Footer */
 .footer {
   position: relative;
   top: 60px;
-  background-color: #9487C8;
+  background-color: #9487c8;
   padding: 25px 20px;
   line-height: 2.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-}
-
-.links {
-
 }
 
 .sm {
@@ -151,7 +185,7 @@ padding-bottom: 200px;
 .fb,
 .twitter,
 .insta,
-.soundcloud  {
+.soundcloud {
   height: 48px;
   width: 48px;
   padding: 4px;
@@ -163,98 +197,127 @@ padding-bottom: 200px;
   background-image: url("../socialMedia/iconmonstr-facebook-3-48.png");
 }
 
-.twitter  {
+.twitter {
   background-image: url("../socialMedia/iconmonstr-twitter-3-48.png");
 }
 
-.insta  {
+.insta {
   background-image: url("../socialMedia/iconmonstr-instagram-11-48.png");
 }
 
-.soundcloud  {
+.soundcloud {
   background-image: url("../socialMedia/iconmonstr-soundcloud-3-48.png");
 }
 
-
-
 /* Media queries */
-
 @media (min-width:768px) {
+
+  /* Hide banner */
   .bgimg,
   .overlay {
     display: none;
   }
 
-.shs {
-  display: none;
-}
-.mainimg::before {
-  background-image: url("../img/20190210_151408.jpg");
-  background-size: cover;
-  content: "";
-  display: block;
-  top: 0;
-  left: 0;
-  max-width: 100vw;
-  height: 550px;
-  z-index: 2;
-}
+  .shs {
+    display: none;
+  }
 
-.overlay2::before {
-  content: "";
-  display: block;
-  position: absolute;
-  margin-left: 0;
-  min-width: 100%;
-height: 550px;
-  z-index: 1;
-  opacity: 0.25;
-  background-color: #3d01c1;
-}
+  /* Display new banner */
+  .mainimg::before {
+    background-image: url("../img/20190210_151408.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    max-width: 100vw;
+    height: 550px;
+    z-index: 2;
+  }
 
-.sm-shs {
-  background-image: url(../img/Title_SHS1.png);
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 120px;
-  width: 52vw;
-  margin-top: -2px;
-  left: -28px;
-  z-index: 2;
-}
-.nav li {
-padding: 10px;
-  /* background-color: #9487c8; */
-  border: solid #9487c8 2px;
-  border-radius: 5px;
-  width: 12.4vw;
-  color: white;
-}
-.form {
-  display: flex;
-}
-textarea{
-  height: 200px;
-}
+  .headline {
+    color: #FFF6FF;
+    position: absolute;
+    left: 20vw;
+    top: 6%;
+    height:300px;
+    width: 300px;
+  }
 
-input,
-textarea {
-  width: 40vw;
-  max-width: 800px;
-  padding: 12px 20px;
-  margin-top: 8px;
-  margin-right: 10px;
-  box-sizing: border-box;
-}
-/* .message {
-  width: 40vw;
-  max-width: 800px;
-  padding: 12px 20px;
-  margin-top: 8px;
-  margin-right: 10px;
-  box-sizing: border-box;
-} */
+  .mono {
+    background-image: url("../img/mono-s.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 25vw;
+    top: 6.1%;
+    height: 300px;
+    width: 300px;
+  }
 
-	}
+
+  .overlay2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    min-width: 100%;
+    height: 550px;
+    z-index: 1;
+    opacity: 0.25;
+    background-color: #3d01c1;
+  }
+
+  .sm-shs {
+    background-image: url(../img/Title_SHS1.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 120px;
+    width: 52vw;
+    margin-top: -2px;
+    left: -28px;
+    z-index: 2;
+  }
+
+  /* Nav bar */
+  .nav li {
+    padding: 10px;
+    border: solid #5a4fa5 2px;
+    border-radius: 5px;
+    width: 12.4vw;
+    color: white;
+    z-index: 5;
+  }
+
+  /* Fit form to page */
+  .form {
+    display: flex;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  input,
+  textarea {
+    width: 40vw;
+    max-width: 800px;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+
+  .links {
+    position: relative;
+    left: 15%;
+  }
+  .sm {
+    flex-direction: row;
+    position: relative;
+    right: 45%;
+    bottom: 96px;
+  }
+}

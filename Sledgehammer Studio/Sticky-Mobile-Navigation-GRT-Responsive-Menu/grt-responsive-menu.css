@@ -29,7 +29,7 @@ header nav {
 	line-height: 40px;
 	height:63px;
 	position:relative;
-	background: #BAA4E6;
+	background: #9487c8;
 }
 
 .menu-container {
@@ -93,7 +93,7 @@ ul.grt-menu li {
 
 
 ul.grt-menu li a {
-	padding: 5px 12px;
+	padding: 11px 12px;
 	font-size:21px;
 	display: inline-block;
 	color:#fff;
@@ -139,7 +139,7 @@ ul.grt-menu li.grt-dropdown ul.grt-dropdown-list {
 	padding: 0;
 	min-width:12.4vw;
 	animation: fadeIn 0.8s;
-	z-index: 999;
+	/* z-index: -1; */
 	/* width: 12.4vw; */
 }
 
@@ -176,7 +176,8 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 
 	ul.grt-menu li.grt-dropdown:hover > a + ul.grt-dropdown-list {
 		display:block;
-		top: calc(100% - 17px);
+		/* top: calc(100% - 15px); */
+		top: 100%;
 	}
 
 	ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li {
@@ -216,7 +217,7 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 		position:absolute;
 		left: 80vw;
 		top:10px;
-		background:#BAA4E6;
+		background:#9487c8;
 		color:#150C50;
 		margin:0;
 		padding:0;
@@ -243,7 +244,7 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 
 	ul.open-grt-menu {
 		position: fixed;
-		background: #BAA4E6;
+		background: #9487C8;
 		width: 100%;
 		left: 0;
 		right: 0;
@@ -254,6 +255,7 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 		justify-content: center;
 		flex-direction: column;
 		text-align: center;
+		transition: 800ms;
 	}
 
 	.grt-mobile-button-open {
@@ -294,5 +296,6 @@ ul.grt-menu li.grt-dropdown.active-dropdown a {
 	ul.grt-menu li.grt-dropdown ul.grt-dropdown-list li a {
 		display: block;
 		font-size: 16px;
+		/* align-items: center; */
 	}
 }
