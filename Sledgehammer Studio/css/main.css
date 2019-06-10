@@ -318,6 +318,5 @@ img {
     flex-direction: row;
     position: relative;
     right: 45%;
-    bottom: 96px;
-  }
+top: 0;  }
 }
